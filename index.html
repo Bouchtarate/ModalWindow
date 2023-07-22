@@ -5,8 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Modal Window</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
+    <nav>
+      <button class="btn model1">Show Modal 1</button>
+      <button class="btn model2">Show Modal 2</button>
+      <button class="btn model3">Show Modal 3</button>
+    </nav>
+    <div class="modal-window hidden">
+      <div class="head">
+        <h1 class="title">I'm a modal window</h1>
+        <i class="fa-solid fa-xmark close-modal"></i>
+      </div>
+      <p class="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo,
+        quas optio est laboriosam magnam saepe repudiandae nulla, dolorum earum
+        delectus officia modi tempora exercitationem corporis omnis unde in odio
+        deserunt! Voluptate rem ab fugiat repudiandae quos aliquam non
+        voluptatem, culpa, eveniet quo temporibus inventore aperiam quidem sed,
+        odio ut?
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
     <script src="js/main.js"></script>
   </body>
 </html>
